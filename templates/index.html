@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <h2 style="text-align:center">User Profile Card</h2>
+
+<div class="card">
+    <img src= "{{ image_url }}" alt="Robert" style="width:100%">
+    <h1>Robert Nguyen</h1>
+    <p class="title">Hi, I'm Robert and I love indie songs
+    </p>
+     <p>Vinschool Imperia</p>
+    <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+    <p class = "index_page">Click the button below to input the information about your idea for your trip:</p>
+    <a  href = "{{url_for('input_page')}}" class = "button-link" >Next Page</a>
+  </div>
+</div>
+</body>
+</html>
